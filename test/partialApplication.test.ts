@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { partial } from '@utils/partialApplication';
+=======
+import { partial } from '../src/utils';
+>>>>>>> d444196 (wip: implement partial application (untyped))
 import { expect, test } from 'vitest';
 
 test("partial preserves 'this' and binds arguments", () => {
