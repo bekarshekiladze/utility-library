@@ -1,4 +1,4 @@
-import { partial } from '../src/utils';
+import { partial } from '@utils/partialApplication';
 import { expect, test } from 'vitest';
 
 test("partial preserves 'this' and binds arguments", () => {
