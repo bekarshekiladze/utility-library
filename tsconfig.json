@@ -16,14 +16,8 @@
     // path mapping cfg
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "src"
-      ],
-      "@components/*": [
-        "src/components"
-      ],
-      "@utils/*": [
-        "src/utils/*"
+      "@lib": [
+        "src/index.ts"
       ]
     }
     // end of path mapping cfg
