@@ -1,5 +1,5 @@
+import { curry } from '@lib';
 import { test, expect } from 'vitest';
-import { curry } from '@utils/currying';
 
 function sum(a: number, b: number, c: number) {
   return a + b + c;
