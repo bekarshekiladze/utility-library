@@ -8,3 +8,4 @@ export { firstElement } from './firstElement';
 export { lazy } from './lazy';
 export { memoize } from './memoize';
 export { averageEven } from './averageEven';
+export { createRandomNumbers, sumOfRandoms } from './sumOfRandoms';
