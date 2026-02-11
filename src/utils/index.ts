@@ -5,3 +5,4 @@ export { unfold } from './linearUnfold';
 export { map } from './map';
 export { filter } from './filter';
 export { firstElement } from './firstElement';
+export { lazy } from "./lazy";
