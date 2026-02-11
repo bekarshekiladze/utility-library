@@ -5,7 +5,9 @@ export function firstElement<T>(
   callBack: FirstCallBack<T>
 ): T | undefined {
   for (let i = 0; i < array.length; i += 1) {
-    if (callBack(array[i], i, array)) return array[i];
+    if (callBack(array[i], i, array)) {
+      return array[i];
+    }
   }
   return undefined;
 }
