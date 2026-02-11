@@ -16,5 +16,8 @@
     }
     // end of path mapping cfg
   },
-  "include": ["src", "test"]
+  "include": [
+    "src",
+    "test"
+, "test"  ]
 }
