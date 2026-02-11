@@ -6,7 +6,9 @@ export function memoize(fn) {
   return function (arg) {
     // handling NaN
     if (Number.isNaN(arg)) {
-      if (primitiveCache.has(NAN)) return primitiveCache.get(NAN);
+      if (primitiveCache.has(NAN)) {
+        return primitiveCache.get(NAN);
+      }
       const result = fn(arg);
       primitiveCache.set(NAN, result);
       return result;
