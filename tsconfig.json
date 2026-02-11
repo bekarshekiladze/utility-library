@@ -2,17 +2,11 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "ESNext",
-    "lib": [
-      "ES2020"
-    ],
+    "lib": ["ES2020"],
     "moduleResolution": "bundler",
     "skipLibCheck": true,
     "noEmit": true,
-    "types": [
-      "vitest",
-      "vitest/globals",
-      "node"
-    ],
+    "types": ["vitest", "vitest/globals", "node"],
     // path mapping cfg
     "baseUrl": ".",
     "paths": {
@@ -22,8 +16,5 @@
     }
     // end of path mapping cfg
   },
-  "include": [
-    "src",
-    "test"
-  ]
+  "include": ["src", "test"]
 }
